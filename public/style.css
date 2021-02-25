@@ -14,15 +14,20 @@ body,
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #222;
 }
 
 nav {
-  background-color: #5793fd;
-  color: #ffffff;
+  background-color: #031d49;
+  color: #f8f4f4;
   height: 80px;
   padding: 10px;
   line-height: 3;
   font-size: 1.2rem;
+}
+
+nav a {
+  margin-right: 10rem;
 }
 
 a,
@@ -46,6 +51,11 @@ header {
 
 header h1 {
   transform: skewX(-2deg);
+  color: white;
+}
+
+.text-center {
+  color: white;
 }
 
 select {
@@ -100,7 +110,6 @@ input {
 }
 
 .wrapper {
-  background-color: #f2f8ff;
   padding-bottom: 100px;
 }
 
